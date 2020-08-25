@@ -1,3 +1,9 @@
+Please run this two Line in anonymous block to initiate the Batch class
+
+System.schedule('WorkforceBatch at Half Hours','0 0 * 30 * ?n',new ScheduleWorkforceBatch());
+System.schedule('Workforce at On the Hour','0 0 * 0 * ?n',new ScheduleWorkforceBatch());
+
+
 # Salesforce App
 
 This guide helps Salesforce developers who are new to Visual Studio Code go from zero to a deployed app using Salesforce Extensions for VS Code and Salesforce CLI.
