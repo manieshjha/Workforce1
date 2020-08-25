@@ -40,5 +40,14 @@
         <members>*</members>
         <name>Flow</name>
     </types>
+    <types>
+    <members>CaseStatus</members>
+    <name>StandardValueSet</name>
+ </types>
+
+ <types>
+        <members>Case.WF_Secret_Key__c</members>
+        <name>CustomField</name>
+    </types>
     <version>49.0</version>
 </Package>
